@@ -17,3 +17,10 @@ class Character:
 
     def __str__(self):
         return f'{self.name} [HP: {self.hp}/{self.max_hp}]'
+
+class Player(Character):
+    def __init__(self, name, hp, max_hp, attack, defense):
+        super().__init__(name, hp, max_hp, attack, defense)
+        self.level = 1
+        self.experience = 0
+        self.inventory = []

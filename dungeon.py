@@ -42,5 +42,4 @@ class DungeonMap:
 
 # Створення карти підземелля
 
-dungeon = DungeonMap(100, 100)
 
